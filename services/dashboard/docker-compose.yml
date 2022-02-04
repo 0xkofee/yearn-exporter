@@ -264,6 +264,7 @@ services:
       - yearn-exporter
     restart: always
     depends_on:
+      - victoria-metrics
       - postgres
 
   vmagent:
